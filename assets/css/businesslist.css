@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    border-top: 1px solid #DDD;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #999;
+}
+
+.footer div{
+    cursor: pointer;
+    user-select: none;
+    font-size: 3.8vw;
+}
+
+.footer div i {
+    font-size: 8vw;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 12vw;
+    background-color: #0097ff;
+    color: white;
+    font-size: 4.5vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header i{
+    width: 42%;
+    box-sizing: border-box;
+    padding: 4vw;
+}
+
+header p{
+    width: 58%;
+}
+
+.wrapper .business{
+    width: 100%;
+    margin-top: 12vw;
+    margin-bottom: 14vw;
+}
+
+.wrapper .business li{
+    font-size: 3.8vw;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    user-select: none;
+    border-bottom: solid 1px #DDD;
+}   
+
+.wrapper .business li:hover{
+    background-color: #DDD;
+    transition: 0.2s;
+}
+
+.wrapper .business img{
+    width: 5em;
+    height: 5em;
+}
+
+.business-info{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3vw;
+}
+
+.business-info-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4vw;
+    margin-bottom: 1.8vw;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 12vw;
+    background-color: #0097ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.form-box{
+    width: 100%;
+    margin-top: 12vw;
+}   
+
+.form-box li{
+    box-sizing: border-box;
+    padding: 4vw 3vw 0 3vw;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    flex: 0 0 18vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #666;
+}
+
+.content{
+    flex: 1;
+}
+
+.content input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 4vw;
+    font-size: 3vw;
+}
+
+.button-login{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4vw 3vw 0 3vw;
+}
+
+.button-login button{
+    width: 100%;
+    height: 10vw;
+    font-size: 3.8vw;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #38ca73;
+    border-radius: 4px;
+}
+
+.button-register{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4vw 3vw 0 3vw;
+}
+
+.button-register button{
+    width: 100%;
+    height: 10vw;
+    font-size: 3.8vw;
+    font-weight: 700;
+    border: solid 1px #DDD;
+    outline: none;
+    color: black;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.footer {
+    border-top: 1px solid #DDD;
+    width: 100%;
+    height: 14vw;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #999;
+}
+
+.footer div{
+    cursor: pointer;
+    user-select: none;
+    font-size: 3.8vw;
+}
+
+.footer div i {
+    font-size: 7.5vw;
+    display: block;
+}
