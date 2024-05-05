@@ -8,7 +8,6 @@
     <title>饿了么 - 订单确认</title>
     <link rel="stylesheet" href="assets/css/order.css">
     <link rel="stylesheet" href="assets/iconfont/iconfont.css">
-    <script src="./assets/js/order.js"> </script>
 </head>
 <body>
     <div class="wrapper">
@@ -30,16 +29,16 @@
         <li>
             <div class="order-detail-left">
                 <img src="./assets/img/sp01.png" alt="">
-                <p>纯肉鲜肉（水饺） x 2</p>
+                <p>纯肉鲜肉（水饺） x <span id="num1">2</span></p>
             </div>
-            <p>&#165;15</p>
+            <p>&#165;<span id="tot1">30</span></p>
         </li>
         <li>
             <div class="order-detail-left">
                 <img src="./assets/img/sp02.png" alt="">
-                <p>玉米鲜肉（水饺） x 1</p>
+                <p>玉米鲜肉（水饺） x <span id="num2">1</span></p>
             </div>
-            <p>&#165;16</p>
+            <p>&#165;<span id="tot2">12</span></p>
         </li>
         <div class="order-deliveryfee">
             <p>配送费</p>
@@ -48,11 +47,12 @@
     </ul>
     <div class="total">
         <div class="total-left">
-            &#165;49
+            &#165;45
         </div>
         <div class="total-right" id="topayment">
             去支付 
         </div>
     </div>
+    <script src="./assets/js/order.js" type="module"> </script>
 </body>
 </html>

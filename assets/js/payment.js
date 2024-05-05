@@ -9,4 +9,17 @@ window.onload=function(){
             detailBox.style.display='none'
         }
     }
+    let alipayCheck = document.getElementById('aliCheck')
+    let wechatCheck = document.getElementById('weChatCheck')
+    let alipayCheckBtn = document.getElementById('aliCheckBtn')
+    let wechatCheckBtn = document.getElementById('weChatCheckBtn')
+    wechatCheckBtn.style.display='none'
+    alipayCheck.onclick=function(){
+        alipayCheckBtn.style.display='block'
+        wechatCheckBtn.style.display='none'
+    }
+    wechatCheck.onclick=function(){
+        alipayCheckBtn.style.display='none'
+        wechatCheckBtn.style.display='block'
+    }
 }

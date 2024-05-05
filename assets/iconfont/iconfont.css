@@ -20,67 +20,79 @@
 }
 
 
-.i.ic\:round-person:before {
+.i.ic\:outline-unpublished:before {
 content: "\e001";
 }
 
-.i.ion\:ios-navigate:before {
+.i.ic\:round-history:before {
 content: "\e002";
 }
 
-.i.material-symbols-light\:house:before {
+.i.ic\:round-person:before {
 content: "\e003";
 }
 
-.i.material-symbols-light\:kid-star:before {
+.i.ion\:ios-navigate:before {
 content: "\e004";
 }
 
-.i.material-symbols-light\:shopping-cart:before {
+.i.material-symbols-light\:house:before {
 content: "\e005";
 }
 
-.i.material-symbols\:add-circle:before {
+.i.material-symbols-light\:kid-star:before {
 content: "\e006";
 }
 
-.i.material-symbols\:arrow-back-ios-new-rounded:before {
+.i.material-symbols-light\:shopping-cart:before {
 content: "\e007";
 }
 
-.i.material-symbols\:arrow-drop-down:before {
+.i.material-symbols\:add-circle:before {
 content: "\e008";
 }
 
-.i.material-symbols\:arrow-forward-ios:before {
+.i.material-symbols\:arrow-back-ios-new-rounded:before {
 content: "\e009";
 }
 
-.i.material-symbols\:check-circle-rounded:before {
+.i.material-symbols\:arrow-drop-down:before {
 content: "\e00a";
 }
 
-.i.material-symbols\:filter-alt-sharp:before {
+.i.material-symbols\:arrow-forward-ios:before {
 content: "\e00b";
 }
 
-.i.material-symbols\:location-on-outline:before {
+.i.material-symbols\:check-circle-rounded:before {
 content: "\e00c";
 }
 
-.i.material-symbols\:search:before {
+.i.material-symbols\:filter-alt-sharp:before {
 content: "\e00d";
 }
 
-.i.material-symbols\:search-rounded:before {
+.i.material-symbols\:location-on-outline:before {
 content: "\e00e";
 }
 
-.i.mdi\:file-document:before {
+.i.material-symbols\:playlist-add-check-circle-rounded:before {
 content: "\e00f";
 }
 
-.i.mdi\:minus-circle:before {
+.i.material-symbols\:search:before {
 content: "\e010";
+}
+
+.i.material-symbols\:search-rounded:before {
+content: "\e011";
+}
+
+.i.mdi\:file-document:before {
+content: "\e012";
+}
+
+.i.mdi\:minus-circle:before {
+content: "\e013";
 }
 

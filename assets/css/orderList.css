@@ -42,7 +42,7 @@ header {
 .wrapper .order li .order-info{
     box-sizing: border-box;
     padding: 2vw 4vw;
-    font-size: 4vw;
+    font-size: 3.8vw;
     color: #666;
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .footer {

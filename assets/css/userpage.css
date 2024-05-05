@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 33vw;
+    background-color: #0097ff;
+    color: white;
+    font-size: 4.5vw;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+    margin-left: 8vw;
+}
+
+header .user-left{
+    margin-left: 5vw;
+}
+
+.user-left h3{
+    font-size: 5vw;
+    margin-bottom: 2vw;
+}
+
+.user-left p{
+    font-size: 3.8vw;
+}
+
+.wrapper .message{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    box-sizing: border-box;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid #ddd;
+}
+
+.message div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message i{
+    font-size: 7vw;
+    color: #888;
+}
+
+.message p{
+    font-size: 3.8vw;
+}
+
+.settings{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 4vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vw;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    font-size: 3.8vw;
+    color: #555;
+}
+
+.footer {
+    border-top: 1px solid #DDD;
+    width: 100%;
+    height: 14vw;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #999;
+}
+
+.footer div{
+    cursor: poin4er;
+    user-select: none;
+    font-size: 3.8vw;
+}
+
+.footer div i {
+    font-size: 7.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

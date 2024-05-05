@@ -8,7 +8,7 @@
     <title>饿了么 - 商家信息</title>
     <link rel="stylesheet" href="assets/css/businessinfo.css">
     <link rel="stylesheet" href="assets/iconfont/iconfont.css">
-    <script src="./assets/js/businessinfo.js"></script>
+    <!-- <script src="./assets/js/businessinfo.js"></script> -->
 </head>
 <body>
     <div class="wrapper">
@@ -36,9 +36,9 @@
                 </div>
                 <div class="food-right">
                     <div>
-                        <i class="i mdi:minus-circle"></i>
+                        <i class="i mdi:minus-circle" id="sub1"></i>
                     </div>
-                    <p><span id="num1">2</span></p>
+                    <p><span id="num1">0</span></p>
                     <div>
                         <i class="i material-symbols:add-circle" id="add1"></i>
                     </div>
@@ -50,14 +50,14 @@
                     <div class="food-left-info">
                         <h3>玉米鲜肉（水饺）</h3>
                         <p>玉米鲜肉</p>
-                        <p>&#165;15</p>
+                        <p>&#165;12</p>
                     </div>
                 </div>
                 <div class="food-right">
                     <div>
-                        <i class="i mdi:minus-circle"></i>
+                        <i class="i mdi:minus-circle" id="sub2"></i>
                     </div>
-                    <p><span id="num2">1</span></p>
+                    <p><span id="num2">0</span></p>
                     <div>
                         <i class="i material-symbols:add-circle" id="add2"></i>
                     </div>
@@ -201,8 +201,8 @@
             <div class="cart-left">
                 <div class="cart-left-icon">
                     <i class="i material-symbols-light:shopping-cart"></i>
-                    <div class="cart-left-icon-quantity">
-                        3
+                    <div class="cart-left-icon-quantity" id="quantity">
+                        0
                     </div>
                 </div>
                 <div class="cart-left-info">
@@ -218,5 +218,6 @@
             </div>
         </div>
     </div>
+    <script type="module" src="./assets/js/businessinfo.js"></script>
 </body>
 </html> 

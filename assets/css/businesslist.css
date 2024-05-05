@@ -39,6 +39,7 @@ header{
     color: white;
     font-size: 4.5vw;
     display: flex;
+    z-index: 1000;
     align-items: center;
     position: fixed;
     top: 0;
@@ -58,11 +59,10 @@ header p{
 .wrapper .business{
     width: 100%;
     margin-top: 12vw;
-    margin-bottom: 14vw;
 }
 
 .wrapper .business li{
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     display: flex;
     box-sizing: border-box;
     padding: 2.5vw;
@@ -76,8 +76,27 @@ header p{
 }
 
 .wrapper .business img{
-    width: 5em;
-    height: 5em;
+    width:  19vw;
+    height: 19vw;
+}
+
+.business-img{
+    position: relative;
+}
+
+.business-img .business-img-quantity{
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    color: #fff;
+    font-size: 3.6vw;
+    border-radius: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -1.5vw;
+    top: -1.5vw ;
 }
 
 .business-info{

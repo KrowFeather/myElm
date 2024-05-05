@@ -8,7 +8,6 @@
     <title>饿了么 - 登录</title>
     <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/iconfont/iconfont.css">
-    <script src="./assets/js/login.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -22,7 +21,7 @@
                 手机号码
             </div>
             <div class="content">
-                <input type="text" placeholder="手机号码">
+                <input type="text" placeholder="手机号码" id="username">
             </div>
         </li>
         <li>
@@ -30,12 +29,12 @@
                 密码
             </div>
             <div class="content">
-                <input type="password" placeholder="密码">
+                <input type="password" placeholder="密码" id="pwd">
             </div>
         </li>
     </ul>
     <div class="button-login">
-        <button>登陆</button>
+        <button id="loginBtn">登陆</button>
     </div>
     <div class="button-register" id="regBtn">
         <button>去注册</button>
@@ -59,5 +58,6 @@
             <p>我的</p>
         </div>
     </footer>
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>
