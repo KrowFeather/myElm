@@ -8,4 +8,6 @@ window.onload=function () {
     document.getElementById('btnOrder').onclick=function(){
         location.href='/orderList.html'
     }
+    document.cookie = 'username=KrowFeather'
+    console.log(document.cookie)
 }

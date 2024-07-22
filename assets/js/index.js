@@ -19,6 +19,11 @@ window.onload = function () {
         location.href='/businesslist1.html'
     }
 
+    let bus1 = document.getElementById('bus1')
+    bus1.onclick = function(){ 
+        location.href='/businessinfo1.html'
+    }
+
     document.getElementById('btnMe').onclick=function (){
         location.href='/login.html'
     }

@@ -101,3 +101,7 @@ header {
     font-size: 7.5vw;
     display: block;
 }
+
+.i.mdi\:file-document{
+    color: #0097ff;
+}

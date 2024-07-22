@@ -3,4 +3,7 @@ window.onload=function(){
     regBtn.onclick = function(){
         location.href='/login.html'
     }
+    document.getElementById('btnBack').onclick=function(){
+        location.href='/login.html'
+    }
 }

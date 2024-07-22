@@ -106,3 +106,7 @@ header .user-left{
     align-items: center;
     flex-direction: column;
 }
+
+.i.ic\:round-person{
+    color: #0097ff;
+}

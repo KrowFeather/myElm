@@ -8,27 +8,18 @@
     height: 100%;
 }
 
-header{
+header {
     width: 100%;
     height: 12vw;
     background-color: #0097ff;
     color: white;
-    font-size: 4.5vw;
     display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 4.5vw;
     position: fixed;
     top: 0;
     left: 0;
-}
-
-header i{
-    width: 42%;
-    box-sizing: border-box;
-    padding: 4vw;
-}
-
-header p{
-    width: 58%;
 }
 
 .order-info {

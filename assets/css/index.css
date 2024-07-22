@@ -20,6 +20,10 @@
 .footer div{
     cursor: pointer;
     user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     font-size: 3.8vw;
 }
 
@@ -348,4 +352,8 @@
 
 .business-info-promotion-right{
     display: flex;
+}
+
+.i.material-symbols-light\:house{
+    color: #0097ff;
 }
